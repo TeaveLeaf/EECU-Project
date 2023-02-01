@@ -1,0 +1,51 @@
+/* FONT(S) */
+@font-face {
+    font-family: Coiny;
+    src: url(Coiny-Regular.ttf);
+}
+
+body {
+    margin: 0;
+}
+
+/* !! UNCOMMENT LATER IT LOOKS UGLY RN !!
+p, button {
+    font-family: "Coiny";
+} */
+
+.navbar {
+    background-color: antiquewhite;
+    height: 150px;
+    /* position: fixed; */
+}
+
+.navButts {
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/* .checkReg {
+    background-color: rgb(221, 255, 244);
+} */
+
+.content1 {
+    background-color: rgb(255, 217, 217);
+}
+
+.taxCal {
+    background-color: rgb(174, 174, 232);
+}
+
+.checkTut {
+    background-color: rgb(220, 174, 232);
+}
+
+.checkExample {
+    background-color: rgb(75, 75, 202);
+}
+
+.checkBook {
+    background-color: rgb(174, 232, 214);
+}

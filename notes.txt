@@ -1,0 +1,23 @@
+IDs
+
+[the px are the figma sizes idk if im gonna change their sizes on here]
+headText- big text (64px)
+conText- normal text (40px)
+loneText- mediumish sized text (32px)
+sixText- smaller mediumish sized text (36px)
+tinyText- smallest text size (24px)
+
+[i ran out of names for the text, not enough descriptive words so at some point theyre going to be words completely unrelated to the font size]
+
+
+
+grid row to make the check book n yadda yadda whatever has rows and lines
+
+
+
+
+
+
+
+
+i lov dogs
