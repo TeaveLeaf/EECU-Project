@@ -1,11 +1,11 @@
 IDs
 
 [the px are the figma sizes idk if im gonna change their sizes on here]
-headText- big text (64px)
-conText- normal text (40px)
-loneText- mediumish sized text (32px)
-sixText- smaller mediumish sized text (36px)
-tinyText- smallest text size (24px)
+headText- big text (64px) - {44px}
+conText- normal text (40px) - {20px}
+loneText- mediumish sized text (32px) - 
+sixText- smaller mediumish sized text (36px) - 
+tinyText- smallest text size (24px) - {16px}
 
 [i ran out of names for the text, not enough descriptive words so at some point theyre going to be words completely unrelated to the font size]
 
@@ -14,6 +14,7 @@ tinyText- smallest text size (24px)
 grid row to make the check book n yadda yadda whatever has rows and lines
 
 
+border radius (to round corners on shapes) = 10px
 
 
 

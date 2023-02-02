@@ -4,6 +4,29 @@
     src: url(Coiny-Regular.ttf);
 }
 
+/* FONT SIZES */
+#headText {
+    font-size: 44px;
+}
+
+#conText {
+    font-size: 20px;
+}
+
+#loneText {
+    font-size: 32px;
+}
+
+#sixText {
+    font-size: 36px;
+}
+
+#tinyText {
+    font-size: 16px;
+}
+
+
+/* THE ACTUAL WEBSITE */
 body {
     margin: 0;
 }
@@ -14,29 +37,77 @@ p, button {
 } */
 
 .navbar {
-    background-color: antiquewhite;
-    height: 150px;
-    /* position: fixed; */
+    width: 90%;
+    height: max-content;
+    display: block;
+    position: fixed;
+    top: 0;
+    border-top: 6vw solid #556B2F;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
 }
 
 .navButts {
-    width: 15%;
+    width: 30%;
     display: flex;
     justify-content: space-around;
+    position: absolute;
+    margin-left: 65%;
+    top: -70px;
 
 }
 
-/* .checkReg {
-    background-color: rgb(221, 255, 244);
-} */
+.deButt, .checkButt {
+    width: max-content;
+    height: max-content;
+    border: 0;
+    background-color: transparent;
+    color: white;
+}
 
+.test {
+    margin-top: 10%;
+}
+
+
+
+/* THE FIRST CONTENT SECTION | INTRODUCTION OF THE WEBSITE */
 .content1 {
     background-color: rgb(255, 217, 217);
 }
 
-.taxCal {
-    background-color: rgb(174, 174, 232);
+.content1 #headText {
+    text-align: center;
 }
+
+.content1 #conText {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+}
+
+
+/* TAX CALCULATOR */
+.taxCal {
+    background-color: #556B2F;
+    width: 70%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.taxIns {
+    background-color: white;
+    width: 90%;
+    height: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
 
 .checkTut {
     background-color: rgb(220, 174, 232);
@@ -48,4 +119,5 @@ p, button {
 
 .checkBook {
     background-color: rgb(174, 232, 214);
+    height: 1000px;
 }
