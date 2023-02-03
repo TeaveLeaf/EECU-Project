@@ -16,6 +16,17 @@ grid row to make the check book n yadda yadda whatever has rows and lines
 
 border radius (to round corners on shapes) = 10px
 
+one way to make a button is using the <form> tag
+like so;
+<form>
+            <input
+              type="button"
+              value="Deductions"
+              onclick="window.location.href='#dedLink'"
+            />
+          </form>
+
+
 
 
 

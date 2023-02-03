@@ -41,11 +41,12 @@ body {
     margin: 0;
 }
 
-/* !! UNCOMMENT LATER IT LOOKS UGLY RN !!
 p, button {
     font-family: "Coiny";
-} */
+}
 
+
+/* NAVIGATION BAR */
 .navbar {
     width: 90%;
     height: max-content;
@@ -74,6 +75,18 @@ p, button {
     background-color: transparent;
     color: white;
 }
+
+/* CHANGES THE COLOR OF THE BUTTON TEXT WHEN HOVERED OVER */
+a.deButt:hover,
+a.checkButt:hover {
+    color:#cfd3c6;
+}
+
+a.deButt,
+a.checkButt {
+    text-decoration: none;
+}
+
 
 .test {
     margin-top: 10%;
@@ -107,6 +120,10 @@ p, button {
     margin-right: auto;
     border-radius: 10px;
 } */
+
+.taxCal {
+    margin-top: 43px;
+}
 
 .taxIns {
     background-color: rgb(188, 157, 157);
