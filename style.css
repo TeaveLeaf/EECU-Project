@@ -26,14 +26,14 @@
 }
 
 /* OTHER IDS */
-#box {
-    background-color: #4d612b;
+/* #box {
+    /* background-color: #f6ffe7; 
     width: 70%;
     height: 500px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
-}
+} */
 
 
 /* THE ACTUAL WEBSITE */
@@ -41,7 +41,7 @@ body {
     margin: 0;
 }
 
-p, a {
+p, a, form {
     font-family: "Coiny";
 }
 
@@ -103,9 +103,9 @@ a.checkButt {
 
 
 /* THE FIRST CONTENT SECTION | INTRODUCTION OF THE WEBSITE */
-.content1 {
+/* .content1 {
     background-color: rgb(255, 217, 217);
-}
+} */
 
 .content1 #headText {
     text-align: center;
@@ -118,6 +118,51 @@ a.checkButt {
     margin-top: -20px;
 }
 
+.sum {
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.gSum {
+    background-color: #ffffff;
+    width: 200px;
+    height: 20px;
+    margin-top: 17.5px;
+    border: 1px solid rgb(83, 83, 83);
+}
+
+.totDec {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: rgb(175, 216, 203); */
+}
+
+.taxDec {
+    background-color: #ffffff;
+    width: 200px;
+    height: 20px;
+    margin-top: 17.5px;
+    border: 1px solid rgb(83, 83, 83);
+}
+
+.housePay {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: .5em;
+    padding-right: 200px;
+    /* background-color: rgb(242, 213, 213); */
+}
+
+.hDec {
+    background-color: #ffffff;
+    width: 200px;
+    height: 20px;
+    margin-top: 17.5px;
+    border: 1px solid rgb(83, 83, 83);
+}
 
 /* TAX CALCULATOR */
 /* .taxCal {
@@ -134,8 +179,8 @@ a.checkButt {
 }
 
 .taxIns {
-    background-color: rgb(188, 157, 157);
-    width: 90%;
+    /* background-color: rgb(188, 157, 157); */
+    width: 30%;
     height: 100px;
     margin-left: auto;
     margin-right: auto;
@@ -143,18 +188,67 @@ a.checkButt {
     
 }
 
-
-
-
-.checkTut {
+/* .checkTut {
     background-color: rgb(220, 174, 232);
-}
+    margin-top: 20em;
+} */
 
-.checkExample {
+/* .checkExample {
     background-color: rgb(75, 75, 202);
-}
+} */
 
 .checkBook {
+    width: 90%;
+    height: 50em;
     background-color: rgb(174, 232, 214);
-    height: 2000px;
+    margin-top: 20em;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gridCont {
+    background-color: rgb(188, 255, 192);
+    margin-left: 0;
+    width: 100%;
+    display: flex;
+    justify-content:center
+}
+
+
+
+.code {
+    background-color: rgb(178, 178, 255);
+    width: 5%;
+    height: 50px;
+}
+
+.date {
+    background-color: rgb(255, 188, 188);
+    width: 5%;
+    height: 50px;
+}
+
+.desc {
+    background-color: rgb(178, 178, 255);
+    width: 30px;
+    height: 50px;
+}
+
+.withdrawal {
+    background-color: rgb(255, 188, 188);
+    width: 20px;
+    height: 50px;
+}
+
+.deposit {
+    background-color: rgb(178, 178, 255);
+    width: 20px;
+    height: 50px;
+}
+
+.balance {
+    background-color: rgb(255, 188, 188);
+    width: 20px;
+    height: 50px;
 }

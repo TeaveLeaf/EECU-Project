@@ -24,49 +24,99 @@
       </div>
     </nav>
     <div class="test">
-      <div class="content1">
-        <p id="headText">Welcome to the Budget Calculator</p>
+      <div id="dedLink" class="content1">
+        <p id="headText">Careers</p>
         <p id="conText">
-          The calculator that helps you calculate your taxes. Our website has
-          both a tax calculator to do your calculations for you and a check
-          register to help you keep track of your balance. Our website is
-          designed to help teach and make adulting easier! The website contains
-          two different interactive boxes. The first box is the tax calculator,
-          putting in a career name is optional but the gross annual income is
-          required. When the gross annual income has been entered it should
-          automatically do the calculations for you. We also have a list of
-          careers if you click the word career in first box area. Putting down
-          the name of one of the careers we have listed will automatically enter
-          the gross annual income for you, but it's completely optional to
-          change the number. If you scroll down you'll find the check register
-          and a short guide on how to use it.
+          Accountant $55.650.00 H/C HVAC $63,000.00 Advance Tractor/Trailer
+          Driver $53,550.00 $56,700.00 $53,550.00 $49.350.00 $50,400.00
+          $54.600.00 Highway Patrol Home Inspector Industrial Mechanic
+          $84,000.00 $56,700.00 $46,200.00 $49,350.00 Agricultural Engineer
+          Architect Auto Tech/Mechanic Interior Designer Investment Analyst
+          $66,150.00 $42,000.00 Aviation Tech. Mechanic Lab Technician Biologist
+          Bus Driver $37,800.000 Landscaper Horticulture $48.300.00 Business
+          Development Officer $54,600.00 Business Manager (Hotel, etc.)
+          $61,950.00 $80,850.00 $47,250.00 $52,500.00 $56,700.00 Civil
+          Engineering Technician $68,250.00 $51,450.00 $46.200.00 Lawyer
+          Marketing/Sales Manager $58,800.00 Media/Communications $86,100.00
+          $45,150.00 $52,500.00 $55,650.00 CNC Manufacturing Medical Repair
+          Tech. Military Carpenter Chef Chemist Nurse $66,150.00 Nutritionist
+          S45,150.00 $69,300.00 $50,400.00 Commercial Driver Oceanographer
+          Pastor Computer Technician Conserv./Environ. Science $72450.00
+          PG&E\AT8&T Technician $78,750.00 $105,000.00 Corectional Officer
+          $48,300.00 Pharmacist Photographer Physical Therapist Pilot
+          (Commercial) $45,150.00 $72,450.00 $36,750.00 Cosmetologist Credit
+          Union/Bank Manager $61,950.00 Daycare Director $78,750.00 $52,500.00
+          $53,550.00 $93,450.00 $37,800.00 Dentist $115.500.00 Plumber Detective
+          $60,900.00 Police Officer Diesel Tech/Mechanic $55,650.00 $147,000.00
+          Principal $44,100.00 $77,700.00 $34,650.00 $50,400.00 $53,550.00
+          $52,500.00 $68,250.00 S82,950.00 $47,250.00 $56,700.00
+          Doctor/Physician Probation Officer Electrician $54,600.00 $75,600.00
+          $34,650.00 Psychologist Retail Sales Associate Electronic Engineer EMT
+          Social Worker Energy Management PG&E $106,050.00 Engineer Fashion
+          Designer Fire Fighte Forest Ranger Solar Energy Tech. $72,450.00
+          $63,000.00 Teacher UPS/Fed Ex Driver $49.350.00 $52,500.00
+          Veterinarian Welder/Metal Specialist Wind Energy Technician
+          Graphic/Media Designer $58.800.00
         </p>
       </div>
       <!-- The Tax Calculator -->
       <div id="box" class="taxCal">
-        <div id="dedLink" class="taxIns">
-          <div class="grossIncome"></div>
-          <div class="taxDucts"></div>
-          <div class="housePay"></div>
+        <div class="taxIns">
+          <div class="grossIncome">
+            <form>
+              <label for="cName">Career Name</label>
+              <input type="text" id="cName" name="cName" />
+            </form>
+            <form>
+              <label for="gAnn">Gross Annual Income</label>
+              <input type="text" id="gAnn" name="gAnn" />
+            </form>
+            <div class="sum">
+              <p class="gMon">Gross Monthly Income</p>
+              <div class="gSum">
+                <p></p>
+              </div>
+            </div>
+          </div>
+            <div class="totDec">
+              <p class="decTitle">Total Deductions</p>
+              <div class="taxDec">
+                <p></p>
+            </div>
+            </div>
+          <div class="housePay">
+            <div class="hPay">
+              <p id="#checkBoo" class="hTitle">Monthly House Payment</p>
+              <div class="hDec">
+                <p></p>
+            </div>
+          </div>
         </div>
       </div>
-      <!-- How to balance a check book guide -->
-      <div id="box" class="checkTut">
+      <!-- How to balance a check book guide / Unused -->
+      <!-- <div id="box" class="checkTut">
         <p id="headText">How to balance a checkbook</p>
         <div id="checkBoo" class="steps"></div>
         <p id="tinyText" class="tinyStep">
           This is an example to show you how it should look when done correctly
         </p>
         <div class="checkExample"></div>
-      </div>
+      </div> -->
       <!-- The check register to do your balance stuff -->
-      <div id="box" class="checkBook">
+      <div class="checkBook">
         <p id="headText">Check Register</p>
         <div class="balanceCheck">
-          <div class="codes">
+          <!-- <div class="codes">
             <p id="loneText"></p>
+          </div> -->
+          <div class="gridCont">
+            <div class="code"></div>
+            <div class="date"></div>
+            <div class="desc"></div>
+            <div class="withdrawal"></div>
+            <div class="deposit"></div>
+            <div class="balance"></div>
           </div>
-          <div class="gridCont"></div>
         </div>
         <div id="WAWA" class="addRow">
           <button class="addRowButt">Add New Row</button>
