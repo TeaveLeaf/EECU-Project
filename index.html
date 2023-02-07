@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="javascript" href="script.js" />
-    <link rel="icon" href="#" />
+    <link rel="icon" href="Images/EECULogo(single).png" />
     <title>EECU | Budget Calculator</title>
   </head>
   <body>
@@ -118,6 +118,48 @@ Wind Energy Technician $56,700.00
                 <p></p>
               </div>
             </div>
+            <div class="fed">
+              <p class="fTax">Federal Taxes  12%</p>
+              <div class="fSum">
+                <p></p>
+              </div>
+            </div>
+            <div class="state">
+              <p class="sTax">State Taxes  7%</p>
+              <div class="sSum">
+                <p></p>
+              </div>
+            </div>
+            <div class="sSec">
+              <p class="soSec">Social Security  6.2%</p>
+              <div class="ssSum">
+                <p></p>
+              </div>
+            </div>
+            <div class="medicare">
+              <p class="medCal">Medicare  1.45%</p>
+              <div class="mSum">
+                <p></p>
+              </div>
+            </div>
+            <div class="stDis">
+              <p class="stateDis">State Disability  1%</p>
+              <div class="sdSum">
+                <p></p>
+              </div>
+            </div>
+            <div class="retire">
+              <p class="rInvest">Retirement Investment  5%</p>
+              <div class="rSum">
+                <p></p>
+              </div>
+            </div>
+            <div class="medIns">
+              <p class="mIns">Medical Insurance  $180</p>
+              <div class="miSum">
+                <p></p>
+              </div>
+            </div>
           </div>
             <div class="totDec">
               <p class="decTitle">Total Deductions</p>
@@ -150,14 +192,47 @@ Wind Energy Technician $56,700.00
           <!-- <div class="codes">
             <p id="loneText"></p>
           </div> -->
-          <div class="gridCont">
-            <div class="code"></div>
-            <div class="date"></div>
-            <div class="desc"></div>
-            <div class="withdrawal"></div>
-            <div class="deposit"></div>
-            <div class="balance"></div>
-          </div>
+          <!-- <div class="gridCont">
+            <div></div>
+            <form class="code">
+              <input type="text" id="codeGrid" name="boc1" />
+            </form>
+            <form class="date">
+              <input type="text" id="dateGrid" name="boc2" />
+            </form>
+            <form class="desc">
+              <input type="text" id="descGrid" name="boc3" />
+            </form>
+            <form class="withdrawal">
+              <input type="text" id="wdGrid" name="boc4" />
+            </form>
+            <form class="deposit">
+              <input type="text" id="depoGrid" name="boc5" />
+            </form>
+            <form class="balance">
+              <input type="text" id="balGrid" name="boc6" />
+            </form>
+          </div> -->
+
+          <table>
+            <tr>
+              <td>Codes</td>
+              <td>Date</td>
+              <td>Transaction Description</td>
+              <td>Withdrawal/Payment</td>
+              <td>Deposit</td>
+              <td>Balance</td>
+            </tr>
+            <tr>
+              <td><input type="text" id="codeGrid" name="boc1"></td>
+              <td><input type="text" id="dateGrid" name="boc2"></td>
+              <td><input type="text" id="descGrid" name="boc3"></td>
+              <td><input type="text" id="wdGrid" name="boc4"></td>
+              <td><input type="text" id="depoGrid" name="boc5"></td>
+              <td><input type="text" id="balGrid" name="boc6"></td>
+            </tr>
+          </table>
+
         </div>
         <div id="WAWA" class="addRow">
           <button class="addRowButt">Add New Row</button>
@@ -166,3 +241,4 @@ Wind Energy Technician $56,700.00
     </div>
   </body>
 </html>
+

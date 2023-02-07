@@ -53,7 +53,7 @@ p, a, form {
     display: block;
     position: fixed;
     top: 0;
-    border-top: 6vw solid #556B2F;
+    border-top: 6vw solid #0a5ba8;
     border-left: 100px solid transparent;
     border-right: 100px solid transparent;
 }
@@ -87,7 +87,7 @@ p, a, form {
 /* CHANGES THE COLOR OF THE BUTTON TEXT WHEN HOVERED OVER */
 a.deButt:hover,
 a.checkButt:hover {
-    color:#cfd3c6;
+    color:#c6c8d3;
 }
 
 a.deButt,
@@ -118,6 +118,9 @@ a.checkButt {
     margin-top: -20px;
 }
 
+
+
+
 .sum {
     width: 45%;
     display: flex;
@@ -125,6 +128,108 @@ a.checkButt {
 }
 
 .gSum {
+    background-color: #ffffff;
+    width: 200px;
+    height: 20px;
+    margin-top: 17.5px;
+    border: 1px solid rgb(83, 83, 83);
+}
+
+.fed {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: .5em;
+    padding-right: 200px;
+    /* background-color: rgb(242, 213, 213); */
+}
+
+.fSum {
+    background-color: #ffffff;
+    width: 200px;
+    height: 20px;
+    margin-top: 17.5px;
+    border: 1px solid rgb(83, 83, 83);
+}
+
+.state {
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: .5em;
+    padding-right: 200px;
+    /* background-color: rgb(242, 213, 213); */
+}
+
+.sSum {
+    background-color: #ffffff;
+    width: 200px;
+    height: 20px;
+    margin-top: 17.5px;
+    border: 1px solid rgb(83, 83, 83);
+}
+
+.sSec {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: .5em;
+    padding-right: 200px;
+    /* background-color: rgb(242, 213, 213); */
+}
+
+.ssSum {
+    background-color: #ffffff;
+    width: 200px;
+    height: 20px;
+    margin-top: 17.5px;
+    border: 1px solid rgb(83, 83, 83);
+}
+
+.medicare {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: .5em;
+    padding-right: 200px;
+    /* background-color: rgb(242, 213, 213); */
+}
+
+.mSum {
+    background-color: #ffffff;
+    width: 200px;
+    height: 20px;
+    margin-top: 17.5px;
+    border: 1px solid rgb(83, 83, 83);
+}
+
+.stDis {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: .5em;
+    padding-right: 200px;
+    /* background-color: rgb(242, 213, 213); */
+}
+
+.sdSum {
+    background-color: #ffffff;
+    width: 200px;
+    height: 20px;
+    margin-top: 17.5px;
+    border: 1px solid rgb(83, 83, 83);
+}
+
+.medIns {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: .5em;
+    padding-right: 200px;
+    /* background-color: rgb(242, 213, 213); */
+}
+
+.miSum {
     background-color: #ffffff;
     width: 200px;
     height: 20px;
@@ -164,6 +269,9 @@ a.checkButt {
     border: 1px solid rgb(83, 83, 83);
 }
 
+
+
+
 /* TAX CALCULATOR */
 /* .taxCal {
     background-color: #4d612b;
@@ -201,7 +309,7 @@ a.checkButt {
     width: 90%;
     height: 50em;
     /* background-color: rgb(174, 232, 214); */
-    margin-top: 20em;
+    margin-top: 50em;
     margin-bottom: 100px;
     margin-left: auto;
     margin-right: auto;
@@ -257,4 +365,9 @@ a.checkButt {
     width: 20%;
     height: 50px;
     border: 1px solid rgb(83, 83, 83);
+}
+
+.gridCont input {
+    border: 0px;
+    outline: none;
 }
