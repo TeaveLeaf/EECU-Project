@@ -41,7 +41,6 @@ function myFunction() {
   var husPa = Math.round(hsP * 100) / 100
   document.getElementById("hDec").innerHTML = husPa;
 
-    checkFunc();
 
 }
 
