@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="javascript" href="script.js" />
     <link rel="icon" href="Images/EECULogo(single).png" />
     <title>EECU | Budget Calculator</title>
+
+    <script src="script.js"></script>
+
   </head>
   <body>
     <nav class="navbar">
@@ -112,66 +114,67 @@ Wind Energy Technician $56,700.00
               <label for="gAnn">Gross Annual Income</label>
               <input type="text" id="gAnn" name="gAnn" />
             </form>
+            <button onclick="myFunction()">Calculate</button>
             <div class="sum">
               <p class="gMon">Gross Monthly Income</p>
               <div class="gSum">
-                <p></p>
+                <p id="gSam"></p>
               </div>
             </div>
             <div class="fed">
               <p class="fTax">Federal Taxes  12%</p>
               <div class="fSum">
-                <p></p>
+                <p id="fSam"></p>
               </div>
             </div>
             <div class="state">
               <p class="sTax">State Taxes  7%</p>
               <div class="sSum">
-                <p></p>
+                <p id="sSum"></p>
               </div>
             </div>
             <div class="sSec">
               <p class="soSec">Social Security  6.2%</p>
               <div class="ssSum">
-                <p></p>
+                <p id="ssSum"></p>
               </div>
             </div>
             <div class="medicare">
               <p class="medCal">Medicare  1.45%</p>
               <div class="mSum">
-                <p></p>
+                <p id="mSum"></p>
               </div>
             </div>
             <div class="stDis">
               <p class="stateDis">State Disability  1%</p>
               <div class="sdSum">
-                <p></p>
+                <p id="sdSum"></p>
               </div>
             </div>
             <div class="retire">
               <p class="rInvest">Retirement Investment  5%</p>
               <div class="rSum">
-                <p></p>
+                <p id="rSum"></p>
               </div>
             </div>
             <div class="medIns">
               <p class="mIns">Medical Insurance  $180</p>
               <div class="miSum">
-                <p></p>
+                <p id="miSum"></p>
               </div>
             </div>
           </div>
             <div class="totDec">
               <p class="decTitle">Total Deductions</p>
               <div class="taxDec">
-                <p></p>
+                <p id="taxDec"></p>
             </div>
             </div>
           <div class="housePay">
             <div class="hPay">
-              <p id="checkBoo" class="hTitle">Monthly House Payment</p>
+              <p id="checkBoo" class="hTitle">Monthly House Payment  33%</p>
               <div class="hDec">
-                <p></p>
+                <p id="hDec"></p>
             </div>
           </div>
         </div>
@@ -192,7 +195,9 @@ Wind Energy Technician $56,700.00
           <!-- <div class="codes">
             <p id="loneText"></p>
           </div> -->
-          <!-- <div class="gridCont">
+
+          <button onclick="newRow()">Add New Row</button>
+          <div id="gridCont" class="gridCont">
             <div></div>
             <form class="code">
               <input type="text" id="codeGrid" name="boc1" />
@@ -212,9 +217,73 @@ Wind Energy Technician $56,700.00
             <form class="balance">
               <input type="text" id="balGrid" name="boc6" />
             </form>
-          </div> -->
+          </div>
+          <div id="gridCont" class="gridCont">
+            <div></div>
+            <form class="code">
+              <input type="text" id="codeGrid" name="boc7" />
+            </form>
+            <form class="date">
+              <input type="text" id="dateGrid" name="boc8" />
+            </form>
+            <form class="desc">
+              <input type="text" id="descGrid" name="boc9" />
+            </form>
+            <form class="withdrawal">
+              <input type="text" id="wdGrid" name="boc10" />
+            </form>
+            <form class="deposit">
+              <input type="text" id="depoGrid" name="boc11" />
+            </form>
+            <form class="balance">
+              <input type="text" id="balGrid" name="boc12" />
+            </form>
+          </div>
+          <div id="gridCont" class="gridCont">
+            <div></div>
+            <form class="code">
+              <input type="text" id="codeGrid" name="boc13" />
+            </form>
+            <form class="date">
+              <input type="text" id="dateGrid" name="boc14" />
+            </form>
+            <form class="desc">
+              <input type="text" id="descGrid" name="boc15" />
+            </form>
+            <form class="withdrawal">
+              <input type="text" id="wdGrid" name="boc16" />
+            </form>
+            <form class="deposit">
+              <input type="text" id="depoGrid" name="boc17" />
+            </form>
+            <form class="balance">
+              <input type="text" id="balGrid" name="boc18" />
+            </form>
+          </div>
+          <div id="gridCont" class="gridCont">
+            <div></div>
+            <form class="code">
+              <input type="text" id="codeGrid" name="boc19" />
+            </form>
+            <form class="date">
+              <input type="text" id="dateGrid" name="boc20" />
+            </form>
+            <form class="desc">
+              <input type="text" id="descGrid" name="boc21" />
+            </form>
+            <form class="withdrawal">
+              <input type="text" id="wdGrid" name="boc22" />
+            </form>
+            <form class="deposit">
+              <input type="text" id="depoGrid" name="boc23" />
+            </form>
+            <form class="balance">
+              <input type="text" id="balGrid" name="boc24" />
+            </form>
+          </div>
 
-          <table>
+
+          <!-- <table id="myTable">
             <tr>
               <td>Codes</td>
               <td>Date</td>
@@ -231,12 +300,44 @@ Wind Energy Technician $56,700.00
               <td><input type="text" id="depoGrid" name="boc5"></td>
               <td><input type="text" id="balGrid" name="boc6"></td>
             </tr>
-          </table>
+            <tr>
+              <td><input type="text" id="codeGrid" name="boc7"></td>
+              <td><input type="text" id="dateGrid" name="boc8"></td>
+              <td><input type="text" id="descGrid" name="boc9"></td>
+              <td><input type="text" id="wdGrid" name="boc10"></td>
+              <td><input type="text" id="depoGrid" name="boc11"></td>
+              <td><input type="text" id="balGrid" name="boc12"></td>
+            </tr>
+            <tr>
+              <td><input type="text" id="codeGrid" name="boc13"></td>
+              <td><input type="text" id="dateGrid" name="boc14"></td>
+              <td><input type="text" id="descGrid" name="boc15"></td>
+              <td><input type="text" id="wdGrid" name="boc16"></td>
+              <td><input type="text" id="depoGrid" name="boc17"></td>
+              <td><input type="text" id="balGrid" name="boc18"></td>
+            </tr>
+            <tr>
+              <td><input type="text" id="codeGrid" name="boc19"></td>
+              <td><input type="text" id="dateGrid" name="boc20"></td>
+              <td><input type="text" id="descGrid" name="boc21"></td>
+              <td><input type="text" id="wdGrid" name="boc22"></td>
+              <td><input type="text" id="depoGrid" name="boc23"></td>
+              <td><input type="text" id="balGrid" name="boc24"></td>
+            </tr>
+            <tr>
+              <td><input type="text" id="codeGrid" name="boc25"></td>
+              <td><input type="text" id="dateGrid" name="boc26"></td>
+              <td><input type="text" id="descGrid" name="boc27"></td>
+              <td><input type="text" id="wdGrid" name="boc28"></td>
+              <td><input type="text" id="depoGrid" name="boc29"></td>
+              <td><input type="text" id="balGrid" name="boc30s"></td>
+            </tr>
+          </table> -->
 
         </div>
-        <div id="WAWA" class="addRow">
+        <!-- <div id="WAWA" class="addRow">
           <button class="addRowButt">Add New Row</button>
-        </div>
+        </div> -->
       </div>
     </div>
   </body>

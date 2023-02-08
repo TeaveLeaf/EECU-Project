@@ -11,8 +11,6 @@ tinyText- smallest text size (24px) - {16px}
 
 
 
-grid row to make the check book n yadda yadda whatever has rows and lines
-
 
 border radius (to round corners on shapes) = 10px
 
@@ -25,11 +23,3 @@ like so;
               onclick="window.location.href='#dedLink'"
             />
           </form>
-
-
-
-
-
-
-
-i lov dogs

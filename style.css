@@ -128,7 +128,7 @@ a.checkButt {
 }
 
 .gSum {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     width: 200px;
     height: 20px;
     margin-top: 17.5px;
@@ -145,7 +145,7 @@ a.checkButt {
 }
 
 .fSum {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     width: 200px;
     height: 20px;
     margin-top: 17.5px;
@@ -162,7 +162,7 @@ a.checkButt {
 }
 
 .sSum {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     width: 200px;
     height: 20px;
     margin-top: 17.5px;
@@ -179,7 +179,7 @@ a.checkButt {
 }
 
 .ssSum {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     width: 200px;
     height: 20px;
     margin-top: 17.5px;
@@ -196,7 +196,7 @@ a.checkButt {
 }
 
 .mSum {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     width: 200px;
     height: 20px;
     margin-top: 17.5px;
@@ -213,7 +213,7 @@ a.checkButt {
 }
 
 .sdSum {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     width: 200px;
     height: 20px;
     margin-top: 17.5px;
@@ -230,7 +230,7 @@ a.checkButt {
 }
 
 .miSum {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     width: 200px;
     height: 20px;
     margin-top: 17.5px;
@@ -245,7 +245,7 @@ a.checkButt {
 }
 
 .taxDec {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     width: 200px;
     height: 20px;
     margin-top: 17.5px;
@@ -262,12 +262,14 @@ a.checkButt {
 }
 
 .hDec {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     width: 200px;
     height: 20px;
     margin-top: 17.5px;
     border: 1px solid rgb(83, 83, 83);
 }
+
+
 
 
 
@@ -309,7 +311,7 @@ a.checkButt {
     width: 90%;
     height: 50em;
     /* background-color: rgb(174, 232, 214); */
-    margin-top: 50em;
+    margin-top: 60em;
     margin-bottom: 100px;
     margin-left: auto;
     margin-right: auto;
@@ -326,42 +328,42 @@ a.checkButt {
 
 
 .code {
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
     width: 10%;
     height: 50px;
     border: 1px solid rgb(83, 83, 83);
 }
 
 .date {
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
     width: 10%;
     height: 50px;
     border: 1px solid rgb(83, 83, 83);
 }
 
 .desc {
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
     width: 30%;
     height: 50px;
     border: 1px solid rgb(83, 83, 83);
 }
 
 .withdrawal {
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
     width: 20%;
     height: 50px;
     border: 1px solid rgb(83, 83, 83);
 }
 
 .deposit {
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
     width: 20%;
     height: 50px;
     border: 1px solid rgb(83, 83, 83);
 }
 
 .balance {
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
     width: 20%;
     height: 50px;
     border: 1px solid rgb(83, 83, 83);
