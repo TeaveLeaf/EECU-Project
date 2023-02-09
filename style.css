@@ -374,6 +374,8 @@ a.checkButt {
     outline: none;
 }
 
+
+/* MEDIA QUERY */
 @media screen and (max-width: 480px){
     #headText {
         margin-top: 27em;
